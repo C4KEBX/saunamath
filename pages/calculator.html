@@ -1,0 +1,17 @@
+Home sauna cost calculator: power, cost per session, payback
+Work out what a home sauna costs per session, per month and over five years, and when it beats your gym or spa membership.
+<section class="hero" style="padding-bottom:8px">
+  <h1>Home sauna cost calculator</h1>
+  <p class="lead">Change any number. The defaults are a typical 2-person infrared.</p>
+</section>
+<form id="calc" onsubmit="return false">
+  <label for="price">Sauna price ($)</label><input id="price" name="price" type="number" value="3500" min="0" step="100">
+  <label for="install">Delivery, electrician and base ($)</label><input id="install" name="install" type="number" value="300" min="0" step="50">
+  <label for="kw">Heater power (kW). Infrared 1.5 to 3.5, traditional 4.5 to 9</label><input id="kw" name="kw" type="number" value="1.7" min="0" step="0.1">
+  <label for="mins">Minutes the heater runs per session, including preheat</label><input id="mins" name="mins" type="number" value="45" min="0" step="5">
+  <label for="week">Sessions per week</label><input id="week" name="week" type="number" value="4" min="0" step="1">
+  <label for="rate">Electricity price (¢ per kWh). The US average is about 18</label><input id="rate" name="rate" type="number" value="18" min="0" step="0.5">
+  <label for="gym">What you pay now for sauna access ($ per month: gym, spa, or 0)</label><input id="gym" name="gym" type="number" value="50" min="0" step="5">
+</form>
+<div id="calc-out"></div>
+<div class="callout">Know the model you want? <a href="/quiz/">Take the quiz</a> and we'll send the $100-off code and check the price for you.</div>

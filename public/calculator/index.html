@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Home sauna cost calculator: power, cost per session, payback</title>
+<meta name="description" content="Work out what a home sauna costs per session, per month and over five years, and when it beats your gym or spa membership.">
+<meta property="og:title" content="Home sauna cost calculator: power, cost per session, payback">
+<meta property="og:description" content="Work out what a home sauna costs per session, per month and over five years, and when it beats your gym or spa membership.">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header class="site"><div class="wrap">
+<a class="logo" href="/">SAUNA<span>MATH</span></a>
+<nav><a href="/quiz/">Quiz</a><a href="/calculator/">Calculator</a><a href="/running-cost/">Running cost</a></nav>
+</div></header>
+<div class="disclose"><div class="wrap">Some links earn us a commission at no cost to you. <a href="/disclosure/">How we make money</a>.</div></div>
+<main class="wrap">
+<section class="hero" style="padding-bottom:8px">
+  <h1>Home sauna cost calculator</h1>
+  <p class="lead">Change any number. The defaults are a typical 2-person infrared.</p>
+</section>
+<form id="calc" onsubmit="return false">
+  <label for="price">Sauna price ($)</label><input id="price" name="price" type="number" value="3500" min="0" step="100">
+  <label for="install">Delivery, electrician and base ($)</label><input id="install" name="install" type="number" value="300" min="0" step="50">
+  <label for="kw">Heater power (kW). Infrared 1.5 to 3.5, traditional 4.5 to 9</label><input id="kw" name="kw" type="number" value="1.7" min="0" step="0.1">
+  <label for="mins">Minutes the heater runs per session, including preheat</label><input id="mins" name="mins" type="number" value="45" min="0" step="5">
+  <label for="week">Sessions per week</label><input id="week" name="week" type="number" value="4" min="0" step="1">
+  <label for="rate">Electricity price (¢ per kWh). The US average is about 18</label><input id="rate" name="rate" type="number" value="18" min="0" step="0.5">
+  <label for="gym">What you pay now for sauna access ($ per month: gym, spa, or 0)</label><input id="gym" name="gym" type="number" value="50" min="0" step="5">
+</form>
+<div id="calc-out"></div>
+<div class="callout">Know the model you want? <a href="/quiz/">Take the quiz</a> and we'll send the $100-off code and check the price for you.</div>
+
+</main>
+<footer class="site"><div class="wrap">
+<p>Sauna Math runs the numbers on home saunas so you can buy once and buy right. Prices and specs change; confirm on the seller's page before you buy. Nothing here is medical advice. Ask your doctor before using a sauna if you're pregnant or have a heart condition.</p>
+<p><a href="/disclosure/">Affiliate disclosure</a> · <a href="/quiz/">Find your sauna</a></p>
+</div></footer>
+<script src="/app.js"></script>
+</body>
+</html>
