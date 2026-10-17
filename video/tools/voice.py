@@ -44,10 +44,12 @@ async def voice(video: dict) -> None:
         for i, beat in enumerate(video["beats"]):
             clip = tmp / f"b{i}.mp3"
             ws = await speak(beat["say"], clip)
-            length = duration_ms(clip)
+            wav = tmp / f"b{i}.wav"
+            subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(clip), "-ar", "24000", "-ac", "1", str(wav)], check=True)
+            length = duration_ms(wav)
             words += [{**w, "startMs": round(w["startMs"] + t), "endMs": round(w["endMs"] + t)} for w in ws]
             beats.append({"show": beat["show"], "startMs": round(t), "endMs": round(t + length + GAP_MS)})
-            parts += [clip, silence]
+            parts += [wav, silence]
             t += length + GAP_MS
         listfile = tmp / "list.txt"
         listfile.write_text("".join(f"file '{p}'\n" for p in parts))
