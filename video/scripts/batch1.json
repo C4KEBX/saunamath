@@ -1,0 +1,1267 @@
+[
+ {
+  "id": "01-23-cents",
+  "caption": "Your home sauna costs about 23 cents a session to run. Here's the math 👇",
+  "beats": [
+   {
+    "say": "A home infrared sauna costs about twenty-three cents a session.",
+    "show": {
+     "type": "hook",
+     "lines": [
+      "23¢",
+      "a sauna session"
+     ],
+     "accent": "23¢"
+    }
+   },
+   {
+    "say": "Here's the math. A two-person infrared heater pulls about one point seven kilowatts.",
+    "show": {
+     "type": "big",
+     "value": 1.7,
+     "decimals": 1,
+     "suffix": " kW",
+     "label": "typical 2-person infrared"
+    }
+   },
+   {
+    "say": "Run it forty-five minutes, warm-up included, and that's about one point three kilowatt hours.",
+    "show": {
+     "type": "big",
+     "value": 1.3,
+     "decimals": 1,
+     "suffix": " kWh",
+     "label": "per 45-minute session"
+    }
+   },
+   {
+    "say": "At the US average of eighteen cents a kilowatt hour, you pay about twenty-three cents.",
+    "show": {
+     "type": "big",
+     "value": 0.23,
+     "decimals": 2,
+     "prefix": "$",
+     "label": "per session at 18¢/kWh"
+    }
+   },
+   {
+    "say": "Four sessions a week is about four dollars a month.",
+    "show": {
+     "type": "big",
+     "value": 4,
+     "prefix": "$",
+     "label": "a month, 4x a week"
+    }
+   },
+   {
+    "say": "Comment SAUNA and I'll send you the calculator to run your own numbers.",
+    "show": {
+     "type": "cta",
+     "keyword": "SAUNA",
+     "site": "saunamath.parlyr.site"
+    }
+   }
+  ]
+ },
+ {
+  "id": "02-dollar-a-session",
+  "caption": "Traditional saunas cost ~$1 a session to run. Most of it is preheat.",
+  "beats": [
+   {
+    "say": "A traditional sauna costs about a dollar every time you use it.",
+    "show": {
+     "type": "hook",
+     "lines": [
+      "$1.08",
+      "every session"
+     ],
+     "accent": "$1.08"
+    }
+   },
+   {
+    "say": "The heater is usually around six kilowatts on a two-forty volt circuit.",
+    "show": {
+     "type": "big",
+     "value": 6,
+     "suffix": " kW",
+     "label": "typical traditional heater"
+    }
+   },
+   {
+    "say": "And it runs about an hour, because forty of those minutes are just preheating the room.",
+    "show": {
+     "type": "compare",
+     "title": "Heater on per session",
+     "items": [
+      {
+       "label": "Preheat",
+       "value": 40,
+       "display": "40 min"
+      },
+      {
+       "label": "You inside",
+       "value": 20,
+       "display": "20 min"
+      }
+     ]
+    }
+   },
+   {
+    "say": "Six kilowatt hours at eighteen cents is about a dollar eight.",
+    "show": {
+     "type": "big",
+     "value": 1.08,
+     "decimals": 2,
+     "prefix": "$",
+     "label": "per session"
+    }
+   },
+   {
+    "say": "Four times a week, that's about nineteen dollars a month.",
+    "show": {
+     "type": "big",
+     "value": 19,
+     "prefix": "$",
+     "label": "a month, 4x a week"
+    }
+   },
+   {
+    "say": "Comment SAUNA for the free calculator.",
+    "show": {
+     "type": "cta",
+     "keyword": "SAUNA",
+     "site": "saunamath.parlyr.site"
+    }
+   }
+  ]
+ },
+ {
+  "id": "03-ir-vs-trad",
+  "caption": "Infrared vs traditional sauna: the 30-second answer.",
+  "beats": [
+   {
+    "say": "Infrared or traditional sauna? Here's the thirty-second answer.",
+    "show": {
+     "type": "hook",
+     "lines": [
+      "Infrared",
+      "or traditional?"
+     ],
+     "accent": "Infrared"
+    }
+   },
+   {
+    "say": "Infrared runs a hundred twenty to a hundred forty degrees. Traditional runs a hundred sixty to a hundred ninety-five.",
+    "show": {
+     "type": "compare",
+     "title": "Air temperature °F",
+     "items": [
+      {
+       "label": "Infrared",
+       "value": 140,
+       "display": "120–140°"
+      },
+      {
+       "label": "Traditional",
+       "value": 195,
+       "display": "160–195°"
+      }
+     ]
+    }
+   },
+   {
+    "say": "Infrared costs about twenty-three cents a session. Traditional, about a dollar.",
+    "show": {
+     "type": "compare",
+     "title": "Power per session",
+     "items": [
+      {
+       "label": "Infrared",
+       "value": 0.23,
+       "display": "$0.23"
+      },
+      {
+       "label": "Traditional",
+       "value": 1.08,
+       "display": "$1.08"
+      }
+     ]
+    }
+   },
+   {
+    "say": "Want it indoors on a normal outlet? Infrared. Want real heat and steam? Traditional.",
+    "show": {
+     "type": "list",
+     "title": "The rule",
+     "items": [
+      "Normal outlet → infrared",
+      "Steam & big heat → traditional"
+     ]
+    }
+   },
+   {
+    "say": "Comment SAUNA and I'll send the quiz that picks yours.",
+    "show": {
+     "type": "cta",
+     "keyword": "SAUNA",
+     "site": "saunamath.parlyr.site"
+    }
+   }
+  ]
+ },
+ {
+  "id": "04-check-your-outlet",
+  "caption": "Check this before you buy a sauna: your outlet.",
+  "beats": [
+   {
+    "say": "Before you buy a sauna, check one thing: your outlet.",
+    "show": {
+     "type": "hook",
+     "lines": [
+      "Check your",
+      "outlet first"
+     ],
+     "accent": "outlet"
+    }
+   },
+   {
+    "say": "Many one and two person infrared saunas plug into a normal one-twenty volt outlet.",
+    "show": {
+     "type": "big",
+     "value": 120,
+     "suffix": "V",
+     "label": "most 1–2 person infrared"
+    }
+   },
+   {
+    "say": "Traditional heaters need a dedicated two-forty volt circuit.",
+    "show": {
+     "type": "big",
+     "value": 240,
+     "suffix": "V",
+     "label": "traditional heaters"
+    }
+   },
+   {
+    "say": "And adding that circuit often costs three hundred to fifteen hundred dollars.",
+    "show": {
+     "type": "compare",
+     "title": "Electrician, typical",
+     "items": [
+      {
+       "label": "Low",
+       "value": 300,
+       "display": "$300"
+      },
+      {
+       "label": "High",
+       "value": 1500,
+       "display": "$1,500"
+      }
+     ]
+    }
+   },
+   {
+    "say": "Comment SAUNA and I'll send you the cost calculator.",
+    "show": {
+     "type": "cta",
+     "keyword": "SAUNA",
+     "site": "saunamath.parlyr.site"
+    }
+   }
+  ]
+ },
+ {
+  "id": "05-four-space-heaters",
+  "caption": "A traditional sauna heater = four space heaters running at once.",
+  "beats": [
+   {
+    "say": "A traditional sauna heater is like running four space heaters at once.",
+    "show": {
+     "type": "hook",
+     "lines": [
+      "= 4 space",
+      "heaters"
+     ],
+     "accent": "4"
+    }
+   },
+   {
+    "say": "A space heater uses about one point five kilowatts.",
+    "show": {
+     "type": "big",
+     "value": 1.5,
+     "decimals": 1,
+     "suffix": " kW",
+     "label": "one space heater"
+    }
+   },
+   {
+    "say": "A six kilowatt sauna heater is four of those.",
+    "show": {
+     "type": "compare",
+     "items": [
+      {
+       "label": "Sauna heater",
+       "value": 6,
+       "display": "6 kW"
+      },
+      {
+       "label": "Space heater",
+       "value": 1.5,
+       "display": "1.5 kW"
+      }
+     ]
+    }
+   },
+   {
+    "say": "A small infrared sauna? Roughly one space heater.",
+    "show": {
+     "type": "big",
+     "value": 1,
+     "suffix": "x",
+     "label": "infrared ≈ one space heater"
+    }
+   },
+   {
+    "say": "Comment SAUNA for the free running-cost calculator.",
+    "show": {
+     "type": "cta",
+     "keyword": "SAUNA",
+     "site": "saunamath.parlyr.site"
+    }
+   }
+  ]
+ },
+ {
+  "id": "06-sauna-vs-gym",
+  "caption": "Does a $3,500 sauna beat a $50/month membership? The math.",
+  "beats": [
+   {
+    "say": "Does a home sauna actually beat your fifty dollar gym membership?",
+    "show": {
+     "type": "hook",
+     "lines": [
+      "Sauna vs",
+      "$50 gym"
+     ],
+     "accent": "$50"
+    }
+   },
+   {
+    "say": "Say the sauna costs thirty-five hundred dollars, plus three hundred to set it up.",
+    "show": {
+     "type": "big",
+     "value": 3800,
+     "prefix": "$",
+     "label": "all-in upfront"
+    }
+   },
+   {
+    "say": "Power is about four dollars a month, so you save about forty-six.",
+    "show": {
+     "type": "big",
+     "value": 46,
+     "prefix": "$",
+     "label": "saved per month"
+    }
+   },
+   {
+    "say": "That pays for itself in under seven years. Share it with a partner who'd also cancel, and it's closer to three and a third.",
+    "show": {
+     "type": "compare",
+     "title": "Payback",
+     "items": [
+      {
+       "label": "Solo",
+       "value": 6.9,
+       "display": "6.9 yrs"
+      },
+      {
+       "label": "Two people",
+       "value": 3.3,
+       "display": "3.3 yrs"
+      }
+     ]
+    }
+   },
+   {
+    "say": "Comment SAUNA and run your own numbers.",
+    "show": {
+     "type": "cta",
+     "keyword": "SAUNA",
+     "site": "saunamath.parlyr.site"
+    }
+   }
+  ]
+ },
+ {
+  "id": "07-cali-tax",
+  "caption": "Live in California? Your sauna costs ~1.6x more to run.",
+  "beats": [
+   {
+    "say": "Where you live changes what your sauna costs to run.",
+    "show": {
+     "type": "hook",
+     "lines": [
+      "Your state",
+      "changes the bill"
+     ],
+     "accent": "state"
+    }
+   },
+   {
+    "say": "The US average is about eighteen cents a kilowatt hour.",
+    "show": {
+     "type": "big",
+     "value": 18,
+     "suffix": "¢",
+     "label": "US average per kWh"
+    }
+   },
+   {
+    "say": "In California or New England it's closer to thirty.",
+    "show": {
+     "type": "big",
+     "value": 30,
+     "suffix": "¢",
+     "label": "high-cost states"
+    }
+   },
+   {
+    "say": "So an infrared session goes from twenty-three cents to about thirty-eight.",
+    "show": {
+     "type": "compare",
+     "items": [
+      {
+       "label": "High-cost state",
+       "value": 38,
+       "display": "$0.38"
+      },
+      {
+       "label": "US average",
+       "value": 23,
+       "display": "$0.23"
+      }
+     ]
+    }
+   },
+   {
+    "say": "Still cheap. Comment SAUNA for the calculator.",
+    "show": {
+     "type": "cta",
+     "keyword": "SAUNA",
+     "site": "saunamath.parlyr.site"
+    }
+   }
+  ]
+ },
+ {
+  "id": "08-preheat",
+  "caption": "Where your sauna's power bill actually goes: preheat.",
+  "beats": [
+   {
+    "say": "Most of a traditional sauna's power bill goes into an empty room.",
+    "show": {
+     "type": "hook",
+     "lines": [
+      "You pay to",
+      "heat an empty room"
+     ],
+     "accent": "empty"
+    }
+   },
+   {
+    "say": "Forty minutes of preheat for twenty minutes of sauna.",
+    "show": {
+     "type": "compare",
+     "items": [
+      {
+       "label": "Preheat",
+       "value": 40,
+       "display": "40 min"
+      },
+      {
+       "label": "Inside",
+       "value": 20,
+       "display": "20 min"
+      }
+     ]
+    }
+   },
+   {
+    "say": "That's two thirds of the energy before you sit down.",
+    "show": {
+     "type": "big",
+     "value": 67,
+     "suffix": "%",
+     "label": "spent on preheat"
+    }
+   },
+   {
+    "say": "Infrared warms you directly, so warm-up is closer to ten to twenty minutes.",
+    "show": {
+     "type": "big",
+     "value": 15,
+     "suffix": " min",
+     "label": "typical infrared warm-up"
+    }
+   },
+   {
+    "say": "Comment SAUNA and I'll send the cost calculator.",
+    "show": {
+     "type": "cta",
+     "keyword": "SAUNA",
+     "site": "saunamath.parlyr.site"
+    }
+   }
+  ]
+ },
+ {
+  "id": "09-five-year-cost",
+  "caption": "What a $3,500 sauna really costs per session over 5 years.",
+  "beats": [
+   {
+    "say": "A thirty-five hundred dollar sauna works out to under four dollars a session.",
+    "show": {
+     "type": "hook",
+     "lines": [
+      "$3,500 sauna",
+      "= $3.88 a session"
+     ],
+     "accent": "$3.88"
+    }
+   },
+   {
+    "say": "Use it four times a week for five years. That's over a thousand sessions.",
+    "show": {
+     "type": "big",
+     "value": 1040,
+     "label": "sessions in 5 years"
+    }
+   },
+   {
+    "say": "Add the price, setup and power, divide it out.",
+    "show": {
+     "type": "big",
+     "value": 3.88,
+     "decimals": 2,
+     "prefix": "$",
+     "label": "all-in per session"
+    }
+   },
+   {
+    "say": "A single day pass at a spa usually costs a lot more than that.",
+    "show": {
+     "type": "list",
+     "title": "Compare it to",
+     "items": [
+      "A spa day pass",
+      "A gym sauna add-on"
+     ]
+    }
+   },
+   {
+    "say": "Comment SAUNA to run your own numbers.",
+    "show": {
+     "type": "cta",
+     "keyword": "SAUNA",
+     "site": "saunamath.parlyr.site"
+    }
+   }
+  ]
+ },
+ {
+  "id": "10-four-dollars-a-month",
+  "caption": "Using a sauna 4x a week costs about $4 a month in power.",
+  "beats": [
+   {
+    "say": "Four sauna sessions a week costs about four dollars a month.",
+    "show": {
+     "type": "hook",
+     "lines": [
+      "$4",
+      "a month"
+     ],
+     "accent": "$4"
+    }
+   },
+   {
+    "say": "That's a two-person infrared at about twenty-three cents a session.",
+    "show": {
+     "type": "big",
+     "value": 0.23,
+     "decimals": 2,
+     "prefix": "$",
+     "label": "per session"
+    }
+   },
+   {
+    "say": "Seventeen sessions a month comes to about four dollars.",
+    "show": {
+     "type": "big",
+     "value": 4,
+     "prefix": "$",
+     "label": "per month"
+    }
+   },
+   {
+    "say": "Less than one streaming subscription.",
+    "show": {
+     "type": "hook",
+     "lines": [
+      "Less than",
+      "one streaming sub"
+     ],
+     "accent": "Less"
+    }
+   },
+   {
+    "say": "Comment SAUNA for the calculator.",
+    "show": {
+     "type": "cta",
+     "keyword": "SAUNA",
+     "site": "saunamath.parlyr.site"
+    }
+   }
+  ]
+ },
+ {
+  "id": "11-three-checks",
+  "caption": "3 things to check before you buy an infrared sauna.",
+  "beats": [
+   {
+    "say": "Three things to check before you buy an infrared sauna.",
+    "show": {
+     "type": "hook",
+     "lines": [
+      "3 checks",
+      "before you buy"
+     ],
+     "accent": "3"
+    }
+   },
+   {
+    "say": "One. Does it run on a normal outlet, or need an electrician?",
+    "show": {
+     "type": "list",
+     "title": "Check",
+     "items": [
+      "120V plug or 240V?"
+     ]
+    }
+   },
+   {
+    "say": "Two. Is the warranty five years or longer?",
+    "show": {
+     "type": "list",
+     "title": "Check",
+     "items": [
+      "120V plug or 240V?",
+      "Warranty 5+ years"
+     ]
+    }
+   },
+   {
+    "say": "Three. Low-EMF heaters and real wood, like hemlock or cedar.",
+    "show": {
+     "type": "list",
+     "title": "Check",
+     "items": [
+      "120V plug or 240V?",
+      "Warranty 5+ years",
+      "Low-EMF, real wood"
+     ]
+    }
+   },
+   {
+    "say": "Comment SAUNA and I'll send the quiz that matches you to one.",
+    "show": {
+     "type": "cta",
+     "keyword": "SAUNA",
+     "site": "saunamath.parlyr.site"
+    }
+   }
+  ]
+ },
+ {
+  "id": "12-where-to-put-it",
+  "caption": "Where to put a home sauna (and what each spot needs).",
+  "beats": [
+   {
+    "say": "Where should a home sauna actually go?",
+    "show": {
+     "type": "hook",
+     "lines": [
+      "Where does",
+      "it go?"
+     ],
+     "accent": "go?"
+    }
+   },
+   {
+    "say": "A spare room or basement is perfect for infrared on a normal outlet.",
+    "show": {
+     "type": "list",
+     "title": "Indoors",
+     "items": [
+      "Spare room",
+      "Basement",
+      "Garage"
+     ]
+    }
+   },
+   {
+    "say": "Outdoors, a barrel or cabin sauna, usually traditional, on a level base.",
+    "show": {
+     "type": "list",
+     "title": "Outdoors",
+     "items": [
+      "Barrel or cabin",
+      "Level pavers or slab",
+      "240V run"
+     ]
+    }
+   },
+   {
+    "say": "Measure ceiling height and power before you order anything.",
+    "show": {
+     "type": "hook",
+     "lines": [
+      "Measure",
+      "before you order"
+     ],
+     "accent": "Measure"
+    }
+   },
+   {
+    "say": "Comment SAUNA and I'll send the quiz.",
+    "show": {
+     "type": "cta",
+     "keyword": "SAUNA",
+     "site": "saunamath.parlyr.site"
+    }
+   }
+  ]
+ },
+ {
+  "id": "13-barrel-price",
+  "caption": "What an outdoor barrel sauna actually costs.",
+  "beats": [
+   {
+    "say": "Here's what an outdoor barrel sauna actually costs.",
+    "show": {
+     "type": "hook",
+     "lines": [
+      "Backyard barrel",
+      "sauna price"
+     ],
+     "accent": "barrel"
+    }
+   },
+   {
+    "say": "Cedar barrel saunas from well-known makers start around fifty-four hundred dollars.",
+    "show": {
+     "type": "big",
+     "value": 5400,
+     "prefix": "$",
+     "label": "cedar barrel, starting"
+    }
+   },
+   {
+    "say": "Bigger cabin models with a changing room run eight to eleven thousand.",
+    "show": {
+     "type": "compare",
+     "items": [
+      {
+       "label": "Cabin + changeroom",
+       "value": 11000,
+       "display": "up to $11k"
+      },
+      {
+       "label": "Barrel",
+       "value": 5400,
+       "display": "from $5.4k"
+      }
+     ]
+    }
+   },
+   {
+    "say": "Budget another three hundred to fifteen hundred for the electrician.",
+    "show": {
+     "type": "big",
+     "value": 1500,
+     "prefix": "+$",
+     "label": "electrical, high end"
+    }
+   },
+   {
+    "say": "Comment SAUNA and I'll send the full cost breakdown.",
+    "show": {
+     "type": "cta",
+     "keyword": "SAUNA",
+     "site": "saunamath.parlyr.site"
+    }
+   }
+  ]
+ },
+ {
+  "id": "14-cheapest-real-infrared",
+  "caption": "The cheapest way into a real infrared sauna.",
+  "beats": [
+   {
+    "say": "The cheapest way into a real infrared sauna is smaller than you think.",
+    "show": {
+     "type": "hook",
+     "lines": [
+      "Cheapest real",
+      "infrared sauna"
+     ],
+     "accent": "Cheapest"
+    }
+   },
+   {
+    "say": "Two and three person carbon infrared saunas start around twenty-five hundred dollars.",
+    "show": {
+     "type": "big",
+     "value": 2500,
+     "prefix": "$",
+     "label": "2–3 person carbon infrared"
+    }
+   },
+   {
+    "say": "Many plug into a regular outlet, so no electrician.",
+    "show": {
+     "type": "big",
+     "value": 0,
+     "prefix": "$",
+     "label": "electrician needed"
+    }
+   },
+   {
+    "say": "And they cost about twenty-five cents a session to run.",
+    "show": {
+     "type": "big",
+     "value": 0.25,
+     "decimals": 2,
+     "prefix": "$",
+     "label": "per session"
+    }
+   },
+   {
+    "say": "Comment SAUNA and I'll send the ones worth looking at.",
+    "show": {
+     "type": "cta",
+     "keyword": "SAUNA",
+     "site": "saunamath.parlyr.site"
+    }
+   }
+  ]
+ },
+ {
+  "id": "15-solo-vs-two",
+  "caption": "1-person vs 2-person infrared sauna: what changes.",
+  "beats": [
+   {
+    "say": "One person or two person sauna? Here's what actually changes.",
+    "show": {
+     "type": "hook",
+     "lines": [
+      "1-person",
+      "or 2-person?"
+     ],
+     "accent": "2-person?"
+    }
+   },
+   {
+    "say": "Both usually run around one and a half to two kilowatts.",
+    "show": {
+     "type": "big",
+     "value": 1.8,
+     "decimals": 1,
+     "suffix": " kW",
+     "label": "typical for both"
+    }
+   },
+   {
+    "say": "So the running cost is almost the same, about twenty to twenty-five cents a session.",
+    "show": {
+     "type": "compare",
+     "items": [
+      {
+       "label": "2-person",
+       "value": 0.23,
+       "display": "~$0.23"
+      },
+      {
+       "label": "1-person",
+       "value": 0.2,
+       "display": "~$0.20"
+      }
+     ]
+    }
+   },
+   {
+    "say": "If anyone else might use it, the two-person is usually the better buy.",
+    "show": {
+     "type": "hook",
+     "lines": [
+      "Go 2-person",
+      "if in doubt"
+     ],
+     "accent": "2-person"
+    }
+   },
+   {
+    "say": "Comment SAUNA for the quiz.",
+    "show": {
+     "type": "cta",
+     "keyword": "SAUNA",
+     "site": "saunamath.parlyr.site"
+    }
+   }
+  ]
+ },
+ {
+  "id": "16-hidden-costs",
+  "caption": "The hidden costs of a home sauna nobody mentions.",
+  "beats": [
+   {
+    "say": "The sticker price isn't what a home sauna costs.",
+    "show": {
+     "type": "hook",
+     "lines": [
+      "The price tag",
+      "is a lie"
+     ],
+     "accent": "lie"
+    }
+   },
+   {
+    "say": "Here's what gets added.",
+    "show": {
+     "type": "list",
+     "title": "Add these",
+     "items": [
+      "Electrician: $0–$1,500",
+      "Delivery & base",
+      "Power: $4–$19/mo"
+     ]
+    }
+   },
+   {
+    "say": "Infrared on a normal outlet skips most of it. Outdoor traditional adds the most.",
+    "show": {
+     "type": "compare",
+     "title": "Extra on top of price",
+     "items": [
+      {
+       "label": "Outdoor traditional",
+       "value": 2000,
+       "display": "$1–2k+"
+      },
+      {
+       "label": "Plug-in infrared",
+       "value": 300,
+       "display": "~$300"
+      }
+     ]
+    }
+   },
+   {
+    "say": "Comment SAUNA and I'll send the calculator that adds it all up.",
+    "show": {
+     "type": "cta",
+     "keyword": "SAUNA",
+     "site": "saunamath.parlyr.site"
+    }
+   }
+  ]
+ },
+ {
+  "id": "17-quiz",
+  "caption": "Which home sauna fits you? 5 questions.",
+  "beats": [
+   {
+    "say": "Five questions will tell you which sauna to buy.",
+    "show": {
+     "type": "hook",
+     "lines": [
+      "5 questions",
+      "→ your sauna"
+     ],
+     "accent": "5"
+    }
+   },
+   {
+    "say": "Indoors or outdoors. How many people. Gentle heat or real steam.",
+    "show": {
+     "type": "list",
+     "title": "The quiz",
+     "items": [
+      "Indoor or outdoor",
+      "How many people",
+      "Gentle or hot heat"
+     ]
+    }
+   },
+   {
+    "say": "Your budget, and whether you can add a two-forty volt circuit.",
+    "show": {
+     "type": "list",
+     "title": "The quiz",
+     "items": [
+      "Your budget",
+      "Normal outlet or 240V"
+     ]
+    }
+   },
+   {
+    "say": "That's enough to rule out most of the market.",
+    "show": {
+     "type": "hook",
+     "lines": [
+      "Rules out",
+      "most of the market"
+     ],
+     "accent": "most"
+    }
+   },
+   {
+    "say": "Comment SAUNA and I'll send you the quiz.",
+    "show": {
+     "type": "cta",
+     "keyword": "SAUNA",
+     "site": "saunamath.parlyr.site"
+    }
+   }
+  ]
+ },
+ {
+  "id": "18-kwh-explained",
+  "caption": "How to work out any sauna's running cost in 10 seconds.",
+  "beats": [
+   {
+    "say": "Here's how to work out any sauna's running cost in ten seconds.",
+    "show": {
+     "type": "hook",
+     "lines": [
+      "Any sauna's cost",
+      "in 10 seconds"
+     ],
+     "accent": "10"
+    }
+   },
+   {
+    "say": "Kilowatts, times hours, times your electricity rate.",
+    "show": {
+     "type": "hook",
+     "lines": [
+      "kW × hours",
+      "× your rate"
+     ],
+     "accent": "×"
+    }
+   },
+   {
+    "say": "Six kilowatts, for one hour, at eighteen cents: a dollar eight.",
+    "show": {
+     "type": "big",
+     "value": 1.08,
+     "decimals": 2,
+     "prefix": "$",
+     "label": "6 kW × 1 h × 18¢"
+    }
+   },
+   {
+    "say": "Find the kilowatts on the spec sheet, and your rate on your bill.",
+    "show": {
+     "type": "list",
+     "title": "Where to look",
+     "items": [
+      "kW: the spec sheet",
+      "Rate: your power bill"
+     ]
+    }
+   },
+   {
+    "say": "Or comment SAUNA and I'll send the calculator.",
+    "show": {
+     "type": "cta",
+     "keyword": "SAUNA",
+     "site": "saunamath.parlyr.site"
+    }
+   }
+  ]
+ },
+ {
+  "id": "19-cold-plunge-combo",
+  "caption": "Sauna + cold plunge at home: what the pair costs.",
+  "beats": [
+   {
+    "say": "Want a sauna and a cold plunge at home? Here's what the pair costs.",
+    "show": {
+     "type": "hook",
+     "lines": [
+      "Sauna +",
+      "cold plunge"
+     ],
+     "accent": "cold"
+    }
+   },
+   {
+    "say": "A cedar barrel sauna starts around fifty-four hundred.",
+    "show": {
+     "type": "big",
+     "value": 5400,
+     "prefix": "$",
+     "label": "barrel sauna, from"
+    }
+   },
+   {
+    "say": "A wooden cold plunge tub starts around twenty-one hundred.",
+    "show": {
+     "type": "big",
+     "value": 2100,
+     "prefix": "$",
+     "label": "cedar plunge tub, from"
+    }
+   },
+   {
+    "say": "So about seventy-five hundred dollars for the full backyard setup.",
+    "show": {
+     "type": "big",
+     "value": 7500,
+     "prefix": "$",
+     "label": "backyard pair, from"
+    }
+   },
+   {
+    "say": "Comment SAUNA and I'll send the breakdown.",
+    "show": {
+     "type": "cta",
+     "keyword": "SAUNA",
+     "site": "saunamath.parlyr.site"
+    }
+   }
+  ]
+ },
+ {
+  "id": "20-renters",
+  "caption": "Renting? You can still have a home sauna.",
+  "beats": [
+   {
+    "say": "Renting? You can still own a home sauna.",
+    "show": {
+     "type": "hook",
+     "lines": [
+      "Renting?",
+      "Still possible."
+     ],
+     "accent": "Renting?"
+    }
+   },
+   {
+    "say": "Pick a one or two person infrared that plugs into a normal outlet.",
+    "show": {
+     "type": "big",
+     "value": 120,
+     "suffix": "V",
+     "label": "plug-in, no rewiring"
+    }
+   },
+   {
+    "say": "Most assemble with panels that clip together, so it moves when you move.",
+    "show": {
+     "type": "list",
+     "title": "Why it works",
+     "items": [
+      "No electrician",
+      "Panels clip together",
+      "Moves with you"
+     ]
+    }
+   },
+   {
+    "say": "Check your lease and the circuit load first.",
+    "show": {
+     "type": "hook",
+     "lines": [
+      "Check the lease",
+      "and the circuit"
+     ],
+     "accent": "lease"
+    }
+   },
+   {
+    "say": "Comment SAUNA for the quiz.",
+    "show": {
+     "type": "cta",
+     "keyword": "SAUNA",
+     "site": "saunamath.parlyr.site"
+    }
+   }
+  ]
+ },
+ {
+  "id": "21-how-often",
+  "caption": "Using it daily? Here's what a sauna habit costs per year.",
+  "beats": [
+   {
+    "say": "What does a daily sauna habit cost per year in power?",
+    "show": {
+     "type": "hook",
+     "lines": [
+      "Daily sauna",
+      "per year?"
+     ],
+     "accent": "Daily"
+    }
+   },
+   {
+    "say": "Infrared, every day: about eighty-four dollars a year.",
+    "show": {
+     "type": "big",
+     "value": 84,
+     "prefix": "$",
+     "label": "infrared, daily, per year"
+    }
+   },
+   {
+    "say": "Traditional, every day: about three hundred ninety.",
+    "show": {
+     "type": "big",
+     "value": 394,
+     "prefix": "$",
+     "label": "traditional, daily, per year"
+    }
+   },
+   {
+    "say": "Same habit, almost five times the bill.",
+    "show": {
+     "type": "compare",
+     "items": [
+      {
+       "label": "Traditional",
+       "value": 394,
+       "display": "$394/yr"
+      },
+      {
+       "label": "Infrared",
+       "value": 84,
+       "display": "$84/yr"
+      }
+     ]
+    }
+   },
+   {
+    "say": "Comment SAUNA for the calculator.",
+    "show": {
+     "type": "cta",
+     "keyword": "SAUNA",
+     "site": "saunamath.parlyr.site"
+    }
+   }
+  ]
+ }
+]
